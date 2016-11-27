@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'signikaregular';
+    src: url('../text/Signika/signika-regular-webfont.woff2') format('woff2'),
+    url('../text/Signika/signika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: signikaregular;
+    background-color: #3a768f;
+}
+table{
+    border: 20px solid wheat;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+
+    background-color: white;
+}
+.imgContainer{
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+    width: 300px;
+}
+.load{
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: -1;
+}
+li{
+    margin-top: 5px;
+}
+th, td{
+   padding-right: 20px;
+    vertical-align: top;
+}
+th{
+    text-align: center;
+    font-size: 36px;
+}
+.parrent{
+    position: relative;
+    left:30px;
+}
+
+.click {
+    margin: 10px;
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,.2), 0 -1px rgba(0,0,0,.8);
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background: rgb(28,107,114) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
+    box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+    color: rgb(0,79,86);
+    user-select: none;
+}
+.click:hover {
+    color: rgb(0,59,66);
+    cursor: pointer;
+}
+.click:active {
+
+    box-shadow:
+    inset rgba(0,0,0,1) 0 1px 3px,
+    inset rgba(0,0,0,.6) 0 -2px 5px,
+    inset rgba(252,255,255,.7) 0 2px 5px,
+    0 1px rgba(255,255,255,.08);
+    color: rgb(128,207,214);
+}
